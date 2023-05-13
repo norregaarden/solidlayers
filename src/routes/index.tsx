@@ -17,9 +17,13 @@ export default function Home() {
       <Title>ScalVGo</Title>
       <h1>Canvas</h1>
       <SVGexample />
-    </main>
+    </main >
   );
 }
+    //     <style>
+    //       div {
+    // }
+    //     </style>
 
 // export default function Home() {
 //   return (
