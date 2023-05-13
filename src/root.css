@@ -1,16 +1,34 @@
 body {
   font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 100vmin;
+  width: 100vmin;
+  margin: 0;
 }
 
-a {
-  margin-right: 1rem;
-}
 
 main {
   text-align: center;
-  padding: 1em;
-  margin: 0 auto;
+  width: calc(100% - 4px);
+  height: 100%;
+  border: 2px solid lightgoldenrodyellow;
+  // display: flex;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  border: 2px solid burlywood;
+}
+
+circle {
+  stroke-dasharray: 3cqw;
+  border: 8px solid burlywood;
+}
+
+
+a {
+  margin-right: 1rem;
 }
 
 h1 {
@@ -19,13 +37,11 @@ h1 {
   font-size: 4rem;
   font-weight: 100;
   line-height: 1.1;
-  margin: 4rem auto;
   max-width: 14rem;
 }
 
 p {
   max-width: 14rem;
-  margin: 2rem auto;
   line-height: 1.35;
 }
 
